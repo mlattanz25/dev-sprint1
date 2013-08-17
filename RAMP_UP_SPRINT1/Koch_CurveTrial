@@ -1,0 +1,18 @@
+world.clear()
+bob = Turtle()
+
+def koch(t, x):
+	if n==0 
+	return 
+angle = 60
+
+koch(t, x/3)
+lt(t, angle)
+rt(t, 2*angle)
+draw(t, x/3)
+lt(t, angle)
+bk(t, x/3)
+
+def snowflake():
+
+

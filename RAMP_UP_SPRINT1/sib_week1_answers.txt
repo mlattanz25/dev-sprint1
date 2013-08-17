@@ -1,0 +1,46 @@
+1.)Routes tell Flask what URL should trigger a function. A function can be given a name which is used to generate urls for that particular function, and returns the message we want to display in the user's browser.
+
+2.)App is the only route that has been specified so far. 
+
+3.)The name is the method that get's called once we hit the route.
+
+4.)from flask import Flask
+app = Flask (_name_)
+
+@app.route ("/")
+def hello():
+	return "Hello World!"
+
+if_name_=="_main_":
+	app.run()
+
+
+6.)What is the 'base case' where we don't call 'blastoff' again?
+
+We don't call blatoff agian when n = 0.	
+
+
+7.)What is the "simpler' form of out input.('n') that we pass into 'blastoff'?
+
+The temporary variable. Could be a number, or a string. 
+
+
+8.)
+
+ The 'for' loop in index.html: It's going loop through all the message and display the flashed message.
+
+<pre>
+	{% for message in messages %}
+			{{message}}
+		{% endfor %}
+</pre>
+
+
+
+
+
+
+
+
+
+
